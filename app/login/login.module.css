@@ -1,0 +1,28 @@
+.loginBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid;
+  width: 300px;
+  height: 300px;
+}
+
+.loginButton {
+  display: inline-block;
+  text-align: center;
+  background-color: blueviolet;
+  border-radius: 0.8rem;
+}
+.loginButton a {
+  display: block;
+  line-height: 1.7em;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0.8rem;
+  color: #fff;
+}
+
+@for $i from 1 to 3 {
+
+}
