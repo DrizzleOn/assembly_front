@@ -1,0 +1,12 @@
+.main {
+  padding: 30px 0;
+  flex-wrap: wrap;
+}
+
+.cardLength {
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--gray300);
+}

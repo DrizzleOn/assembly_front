@@ -29,6 +29,18 @@ body {
 
 :root {
   --tablet: 768px;
+
+  --gray100:#a5a5a5;
+  --gray300:#8f8f8f;
+}
+.content {
+  max-width: 1260px;
+  width: 100%;
+}
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* header */
 header {
@@ -41,7 +53,6 @@ header {
 
 header > .content {
   height: 100%;
-  max-width: 1260px;
   margin: auto;
   display: flex;
   align-items: center;

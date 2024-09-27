@@ -1,0 +1,27 @@
+.cardBox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardBox .card {
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  border: 1px solid var(--gray100);
+  border-radius: 16px;
+  /* margin-bottom: 16px; */
+  margin: 0 7.5px 16px;
+  display: flex;
+  justify-content: center;
+}
+.card .textBox {
+  width: 100%;
+  padding: 5%;
+}
+.card .textBox h2 {
+  font-size: 2.3rem;
+}
+.card .textBox p {
+  font-size: 1.6rem;
+}
